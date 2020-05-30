@@ -16,7 +16,7 @@ Estos son los temas que son o serán cubiertos por cada archivo (en progreso).
 | `Py5`  | Curvas de ajuste de datos    |
 | `Py6`  | Módulo de estadística para cálculo de momentos     |
 | `Py7`  | Graficación avanzada     |
-| `Py8`  | Simulaciones de Monte Carlo     |
+| `Py8`  | Simulaciones aleatorias     |
 | `Py9`  | Librerías de manipulación de datos II  |
 | `Py10` | Programación orientada a objetos I  |
 | `Py11` | Programación orientada a objetos II  |
