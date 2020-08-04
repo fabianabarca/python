@@ -42,6 +42,6 @@ Hay que evitar espacios en blanco superfluos en las siguientes situaciones:
 
 * En medio de paréntesis redondos o cuadrados, o llaves.
 **Correcto**
-'''python
+```python
 spam(ham[1], {eggs: 2})
-'''
+```
