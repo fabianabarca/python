@@ -38,8 +38,6 @@ Aquí mostraremos solamente la síntesis de unas cuantas recomendaciones que ser
 
 ### Cosas que fastidian (*pet peeves*)
 
-Hay que Evitar espacios en blanco e superfluos en las siguientes situaciones:
-
 * Evitar espacios en blanco en medio de paréntesis redondos o cuadrados, o llaves.
 
 **Correcto**
