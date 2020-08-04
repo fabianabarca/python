@@ -32,15 +32,15 @@ Estos son los temas que son o serán cubiertos por cada archivo (*trabajo en pro
 
 ## Algunos consejos de la *Guía de estilo para código de Python* (PEP 8)
 
-Guido van Rossum (creador de Python) y colaboradores crearon una guía para que el código escrito en Python tenga una consistencia agradable a la vista. Pueden hacer lectura completa en la página oficial de [PEP 8](https://www.python.org/dev/peps/pep-0008/).
+PEP 8 es una guía para que el código escrito en Python tenga una consistencia agradable a la vista. Pueden hacer lectura completa en la página oficial de [PEP 8](https://www.python.org/dev/peps/pep-0008/).
 
 Aquí mostraremos solamente la síntesis de unas cuantas recomendaciones que serán **regla** para el curso.
 
 ### Cosas que fastidian (*pet peeves*)
 
-Hay que evitar espacios en blanco superfluos en las siguientes situaciones:
+Hay que Evitar espacios en blanco e superfluos en las siguientes situaciones:
 
-* En medio de paréntesis redondos o cuadrados, o llaves.
+* Evitar espacios en blanco en medio de paréntesis redondos o cuadrados, o llaves.
 
 **Correcto**
 ```python
@@ -51,7 +51,7 @@ spam(ham[1], {eggs: 2})
 spam( ham[ 1 ], { eggs: 2 } )
 ```
 
-* Entre una coma final y un paréntesis cerrado siguiente:
+* Evitar espacios en blanco entre una coma final y un paréntesis cerrado siguiente:
 
 **Correcto**
 ```python
@@ -62,7 +62,7 @@ foo = (0,)
 bar = (0, )
 ```
 
-* Inmediatamente antes de una coma, punto y coma o dos puntos:
+* Evitar espacios en blanco inmediatamente antes de una coma, punto y coma o dos puntos:
 
 **Correcto**
 ```python
@@ -91,7 +91,7 @@ ham[lower : : upper]
 ham[ : upper]
 ```
 
-* Inmediatamente antes del paréntesis abierto que inicia la lista de argumentos de una llamada de función:
+* Evitar espacios en blanco inmediatamente antes del paréntesis abierto que inicia la lista de argumentos de una llamada de función:
 
 **Correcto**
 ```python
@@ -102,7 +102,7 @@ spam(1)
 spam (1)
 ```
 
-* Inmediatamente antes del paréntesis abierto que comienza una indexación o corte:
+* Evitar espacios en blanco inmediatamente antes del paréntesis abierto que comienza una indexación o corte:
 
 **Correcto**
 ```python
@@ -113,7 +113,7 @@ dct['key'] = lst[index]
 dct ['key'] = lst [index]
 ```
 
-* Más de un espacio alrededor de un operador de asignación (u otro) para alinearlo con otro:
+* Evitar más de un espacio alrededor de un operador de asignación (u otro) para alinearlo con otro:
 
 **Correcto**
 ```python
@@ -130,11 +130,11 @@ long_variable = 3
 
 #### Otras recomendaciones
 
-* Evite dejar espacios en blanco en cualquier lugar. Debido a que generalmente es invisible, puede ser confuso: por ejemplo, una barra invertida seguida de un espacio y una nueva línea no cuentan como un marcador de continuación de línea. Algunos editores no lo conservan y muchos proyectos (como el propio CPython) tienen ganchos de confirmación previa que lo rechazan.
+* Evitar dejar espacios en blanco en cualquier lugar. Debido a que generalmente es invisible, puede ser confuso para algunos editores de texto.
 
-* Siempre rodear estos operadores binarios con un solo espacio a cada lado: asignación ( = ), la asignación aumentada ( + = , - = , etc.), las comparaciones ( == , < , > , ! = , <> , <= , > = , in , not in , is , is not ), Booleans ( and , or , not ).
+* Siempre rodear estos operadores binarios con un solo espacio a cada lado: asignación (`=`), la asignación aumentada (`+=`, `-=`, etc.), las comparaciones (`==`, `<`, `>`, `!=`, `<>`, `<=`, `>=`, `in`, `not in`, `is`, `is not`), Booleans (`and`, `or`, `not`).
 
-* Si se utilizan operadores con diferentes prioridades, considere agregar espacios en blanco alrededor de los operadores con las prioridades más bajas. Usa tu propio juicio; sin embargo, nunca use más de un espacio y siempre tenga la misma cantidad de espacios en blanco en ambos lados de un operador binario:
+* Si se utilizan operadores con diferentes prioridades, considerar agregar espacios en blanco alrededor de los operadores con las prioridades más bajas:
 
 **Correcto**
 ```python
@@ -153,7 +153,7 @@ hypot2 = x * x + y * y
 c = (a + b) * (a - b)
 ```
 
-* No use espacios alrededor del signo `=` cuando se usa para indicar un argumento de palabra clave, o cuando se usa para indicar un valor predeterminado para un parámetro de función:
+* No usar espacios alrededor del signo `=` cuando se usa para indicar un argumento de palabra clave, o cuando se usa para indicar un valor predeterminado para un parámetro de función:
 
 **Correcto**
 ```python
