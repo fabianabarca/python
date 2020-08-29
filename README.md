@@ -11,8 +11,8 @@ Estos son los temas que son o serán cubiertos por cada archivo (*trabajo en pro
 | `Py0`  | Introducción a Python    |
 | `Py1`  | Funciones y librerías estándar de Python |
 | `Py2`  | Librerías de computación científica  |
-| `Py3`  | Introducción al módulo de funciones estadísticas |
-| `Py4`  | Librerías de manipulación de datos I |
+| `Py3`  | Librerías de manipulación de datos I |
+| `Py4`  | Introducción al módulo de funciones estadísticas |
 | `Py5`  | Curvas de ajuste de datos |
 | `Py6`  | Módulo de estadística para cálculo de momentos |
 | `Py7`  | Graficación avanzada     |
