@@ -17,11 +17,11 @@ Estos son los temas que son o serán cubiertos por cada archivo (*trabajo en pro
 | `Py6`  | Módulo de estadística para cálculo de momentos |
 | `Py7`  | Graficación avanzada     |
 | `Py8`  | Simulaciones aleatorias  |
-| `Py9`  | Documentación de código |
-| `Py10` | Librerías de manipulación de datos II  |
-| `Py11` | Programación orientada a objetos I  |
-| `Py12` | Programación orientada a objetos II  |
-| `Py13` | Programación orientada a objetos III |
+| `Py9`  | Librerías de manipulación de datos II  |
+| `Py10` | Programación orientada a objetos I  |
+| `Py11` | Programación orientada a objetos II  |
+| `Py12` | Programación orientada a objetos III |
+| `Py13` | Documentación de código |
 | `Py14` | Formatos de intercambio de datos  |
 | `Py15` | Conexión con bases de datos externas  |
 | `Py16` | Módulo de análisis espectral  |
