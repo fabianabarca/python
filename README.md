@@ -6,16 +6,16 @@ Estos son archivos ejecutables tipo "notebook" de Jupyter, que llamaremos **PyX*
 
 Estos son los temas cubiertos por cada archivo (*trabajo en progreso*).
 
-| Nombre | Tema |
-| ------ | ---- |
-| `Py0`  | Introducción a Python    |
-| `Py1`  | Funciones y librerías estándar de Python |
-| `Py2`  | Librerías de computación científica  |
-| `Py3`  | Librerías de manipulación de datos I |
-| `Py4`  | Introducción al módulo de funciones estadísticas |
-| `Py5`  | Curvas de ajuste y modelos estadísticos para datos |
-| `Py6`  | Intercambio de datos con servicios web |
-| `Py7`  | Graficación estadística     |
+| Nombre | Tema | Librerías |
+| ------ | ---- | ---- |
+| `Py0`  | Introducción a Python | - |
+| `Py1`  | Funciones y librerías estándar de Python | `math`, `random`... |
+| `Py2`  | Computación científica  | NumPy, SciPy, Matplotlib |
+| `Py3`  | Manipulación de datos  | Pandas |
+| `Py4`  | Funciones estadísticas | `scipy.stats` |
+| `Py5`  | Curvas de ajuste y modelos estadísticos para datos | Fitter |
+| `Py6`  | Intercambio de datos con servicios web | `requests` |
+| `Py7`  | Graficación estadística  | Seaborn |
 
 ## Algunos consejos de la *Guía de estilo para código de Python* (PEP 8)
 
