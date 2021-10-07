@@ -1,10 +1,10 @@
-# `mpss` - Modelos Probabilísticos de Señales y Sistemas
+# `python` - Modelos Probabilísticos de Señales y Sistemas
 
-Estos son los archivos ejecutables tipo "notebook" de Jupyter, que llamaremos **PyX**, y que acompañan los subtemas del curso. Son una introducción a Python como lenguaje de programación y la presentación de algunas de sus herramientas más importantes para utilizar en problemas relacionados con la probabilidad, la estadística y el manejo de datos.
+Estos son archivos ejecutables tipo "notebook" de Jupyter, que llamaremos **PyX** (pronunciado "pics"), y que acompañan los temas del curso. Son una introducción a Python como lenguaje de programación y la presentación de algunas de sus herramientas más importantes para utilizar en problemas relacionados con la probabilidad, la estadística y el análisis de datos.
 
 ## Lista de tutoriales
 
-Estos son los temas que son o serán cubiertos por cada archivo (*trabajo en progreso*).
+Estos son los temas cubiertos por cada archivo (*trabajo en progreso*).
 
 | Nombre | Tema |
 | ------ | ---- |
@@ -13,22 +13,9 @@ Estos son los temas que son o serán cubiertos por cada archivo (*trabajo en pro
 | `Py2`  | Librerías de computación científica  |
 | `Py3`  | Librerías de manipulación de datos I |
 | `Py4`  | Introducción al módulo de funciones estadísticas |
-| `Py5`  | Curvas de ajuste de datos |
-| `Py6`  | Módulo de estadística para cálculo de momentos |
-| `Py7`  | Graficación avanzada     |
-| `Py8`  | Simulaciones aleatorias  |
-| `Py9`  | Librerías de manipulación de datos II  |
-| `Py10` | Programación orientada a objetos I  |
-| `Py11` | Programación orientada a objetos II  |
-| `Py12` | Programación orientada a objetos III |
-| `Py13` | Documentación de código |
-| `Py14` | Formatos de intercambio de datos  |
-| `Py15` | Conexión con bases de datos externas  |
-| `Py16` | Módulo de análisis espectral  |
-| `Py17` | Interfaces gráficas de usuario de Python  |
-| `Py18` | Graficación avanzada HTML  |
-| `Py19` | TBD  |
-| `Py20` | TBD  |
+| `Py5`  | Curvas de ajuste y modelos estadísticos para datos |
+| `Py6`  | Intercambio de datos con servicios web |
+| `Py7`  | Graficación estadística     |
 
 ## Algunos consejos de la *Guía de estilo para código de Python* (PEP 8)
 
