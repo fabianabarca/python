@@ -27,40 +27,40 @@ Aquí mostraremos solamente la síntesis de unas cuantas recomendaciones que ser
 
 * Evitar espacios en blanco en medio de paréntesis redondos o cuadrados, o llaves.
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 spam(ham[1], {eggs: 2})
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 spam( ham[ 1 ], { eggs: 2 } )
 ```
 
 * Evitar espacios en blanco entre una coma final y un paréntesis cerrado siguiente:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 foo = (0,)
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 bar = (0, )
 ```
 
 * Evitar espacios en blanco inmediatamente antes de una coma, punto y coma o dos puntos:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 if x == 4: print x, y; x, y = y, x
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 if x == 4 : print x , y ; x , y = y , x
 ```
 
 * A pesar de lo anterior, en un segmento los dos puntos actúan como un operador binario y debe tener cantidades iguales en ambos lados:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:]
 ham[lower:upper], ham[lower:upper:], ham[lower::step]
@@ -68,7 +68,7 @@ ham[lower+offset : upper+offset]
 ham[: upper_fn(x) : step_fn(x)], ham[:: step_fn(x)]
 ham[lower + offset : upper + offset]
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 ham[lower + offset:upper + offset]
 ham[1: 9], ham[1 :9], ham[1:9 :3]
@@ -78,35 +78,35 @@ ham[ : upper]
 
 * Evitar espacios en blanco inmediatamente antes del paréntesis abierto que inicia la lista de argumentos de una llamada de función:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 spam(1)
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 spam (1)
 ```
 
 * Evitar espacios en blanco inmediatamente antes del paréntesis abierto que comienza una indexación o corte:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 dct['key'] = lst[index]
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 dct ['key'] = lst [index]
 ```
 
 * Evitar más de un espacio alrededor de un operador de asignación (u otro) para alinearlo con otro:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 x = 1
 y = 2
 long_variable = 3
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 x             = 1
 y             = 2
@@ -121,7 +121,7 @@ long_variable = 3
 
 * Si se utilizan operadores con diferentes prioridades, considerar agregar espacios en blanco alrededor de los operadores con las prioridades más bajas:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 i = i + 1
 submitted += 1
@@ -129,7 +129,7 @@ x = x*2 - 1
 hypot2 = x*x + y*y
 c = (a+b) * (a-b)
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 i=i+1
 submitted +=1
@@ -140,12 +140,12 @@ c = (a + b) * (a - b)
 
 * No usar espacios alrededor del signo `=` cuando se usa para indicar un argumento de palabra clave, o cuando se usa para indicar un valor predeterminado para un parámetro de función:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 def complex(real, imag=0.0):
     return magic(r=real, i=imag)
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 def complex(real, imag = 0.0):
     return magic(r = real, i = imag)
@@ -153,7 +153,7 @@ def complex(real, imag = 0.0):
 
 * Las declaraciones compuestas (declaraciones múltiples en la misma línea) generalmente no se aconsejan:
 
-**Correcto**
+:white_check_mark: **Correcto**
 ```python
 if foo == 'blah':
     do_blah_thing()
@@ -161,7 +161,7 @@ do_one()
 do_two()
 do_three()
 ```
-***Incorrecto***
+:x: ***Incorrecto***
 ```
 if foo == 'blah': do_blah_thing()
 do_one(); do_two(); do_three()
