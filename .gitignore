@@ -1,6 +1,10 @@
 */.ipynb_checkpoints/*.ipynb_checkpoints
 */.ipynb_checkpoints/*checkpoint.ipynb
+.ipynb_checkpoints/
 Viejo Py6.ipynb
 Py8.ipynb
 Py9.ipynb
 Py10.ipynb
+PyML.ipynb
+.DS_Store
+
