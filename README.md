@@ -9,13 +9,21 @@ Estos son los temas cubiertos por cada archivo (*trabajo en progreso*).
 | Nombre | Tema | Librerías |
 | ------ | ---- | ---- |
 | `Py0`  | Introducción a Python |  |
-| `Py1`  | Funciones y librerías estándar de Python | *Math*, *Random*... |
-| `Py2`  | Computación científica  | *NumPy*, *SciPy*, *Matplotlib* |
-| `Py3`  | Manipulación de datos  | *Pandas* |
-| `Py4`  | Funciones estadísticas | *Stats* de *SciPy* |
-| `Py5`  | Curvas de ajuste y modelos estadísticos para datos | *Fitter* |
-| `Py6`  | Intercambio de datos con servicios web | *Requests* |
-| `Py7`  | Graficación estadística  | *Seaborn* |
+| `Py1`  | Funciones y librerías estándar | Math, Random... |
+| `Py2`  | Librerías de computación científica | NumPy, SciPy, Matplotlib |
+| `Py3`  | Manipulación de datos  | Pandas |
+| `Py4`  | Funciones estadísticas | Stats de SciPy |
+| `Py5`  | Curvas de ajuste y modelos estadísticos para datos | Fitter |
+| `Py6`  | Intercambio de datos con servicios web | Requests |
+| `Py7`  | Graficación estadística  | Seaborn |
+
+Pendientes:
+
+| Nombre | Tema | Librerías |
+| ------ | ---- | ---- |
+| `Py8`  | Bases de datos SQL con Python | SQLite |
+| `Py9`  | Principios de programación orientada a objetos |  |
+| `Py10` | Documentación de código | Sphinx |
 
 ## Algunos consejos de la *Guía de estilo para código de Python* (PEP 8)
 
