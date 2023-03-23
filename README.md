@@ -1,6 +1,8 @@
 # `python` - Modelos Probabilísticos de Señales y Sistemas
 
-Estos son archivos ejecutables tipo "notebook" de Jupyter, que llamaremos **PyX** (pronunciado "pics"), y que acompañan los temas del curso. Son una introducción a Python como lenguaje de programación y la presentación de algunas de sus herramientas más importantes para utilizar en problemas relacionados con la probabilidad, la estadística y el análisis de datos.
+Estos son archivos ejecutables tipo *notebook* de Jupyter, que llamaremos **PyX** (pronunciado "pics"), y que acompañan los temas del curso. Son una introducción a Python como lenguaje de programación y la presentación de algunas de sus herramientas más importantes para utilizar en problemas relacionados con la probabilidad, la estadística y el análisis de datos.
+
+> **Nota**: para saber más sobre cómo instalar Jupyter y ejecutar los PyX, consultar [HOWTO.md](HOWTO.md).
 
 ## Lista de tutoriales
 
