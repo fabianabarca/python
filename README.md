@@ -10,8 +10,8 @@ Estos son los temas cubiertos por cada archivo (*trabajo en progreso*).
 | ------ | ---- | ---- |
 | `Py0`  | Introducción a Python |  |
 | `Py1`  | Funciones y librerías estándar | Math, Random... |
-| `Py2`  | Librerías de computación científica | NumPy, SciPy, Matplotlib |
-| `Py3`  | Manipulación de datos  | Pandas |
+| `Py2`  | Manipulación de datos  | Pandas |
+| `Py3`  | Librerías de computación científica | NumPy, SciPy, Matplotlib |
 | `Py4`  | Funciones estadísticas | Stats de SciPy |
 | `Py5`  | Curvas de ajuste y modelos estadísticos para datos | Fitter |
 | `Py6`  | Intercambio de datos con servicios web | Requests |
